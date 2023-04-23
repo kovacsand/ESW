@@ -4,6 +4,8 @@
 
 int main(void)
 {
+    setbuf(stdout, NULL);
+
     int a = 5;
     int b = 10;
     int result = calc_add(a, b);
@@ -14,6 +16,5 @@ int main(void)
 
     result = calc_mul(a, b);
     printf("%d * %d = %d\n", a, b, result);
-
     return 0;
 }

@@ -1,0 +1,10 @@
+^C:\USERS\KANDR\VSCODEPROJECTS\ESW\EX01\2-HEADER\BUILD\CMAKEFILES\548E1238D86A3290679C540E4F647D10\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header -BC:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build/MyProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

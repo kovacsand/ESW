@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kandr\VSCodeProjects\ESW\Ex01\2-Header\calc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kandr\VSCodeProjects\ESW\Ex01\2-Header\handler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kandr\VSCodeProjects\ESW\Ex01\2-Header\calc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kandr\VSCodeProjects\ESW\Ex01\2-Header\CMakelists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40F396DB-371A-3B6C-BCFD-3D09CDF4DD7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BCE3BDD0-C239-32F8-AE60-4B540F1E4BF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build/CMakeFiles/MyProject.dir
+C:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\KANDR\VSCODEPROJECTS\ESW\EX01\2-HEADER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header -BC:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build --check-stamp-file C:/Users/kandr/VSCodeProjects/ESW/Ex01/2-Header/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
